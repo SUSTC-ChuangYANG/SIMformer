@@ -1,0 +1,16 @@
+[Preprocessing] Total Trajs: 16854
+[Preprocessing] Convert the given area into a grid map...
+[Preprocessing] User-defined Longtitude Range: [115.9, 117], Latitude Range: [39.6, 40.7]
+[Preprocessing] Grid Delta: 0.001
+[Preprocessing] OUTPUT -> X Index Range: 0-1099, Y Index Range: 0-1099;  Grid Size: 1100 * 1100
+[Preprocessing] OUTPUT -> Gird Index of Right Bottom : (1099, 1099, 1209999)
+--------------------------------------------------
+[Preprocessing] Convert the trajectory into a squeezed grid sequence...
+[Preprocessing] Processed 0 trajs
+[Preprocessing] Processed 10000 trajs
+[Preprocessing] Grid Mapping Completed!
+[Preprocessing] Start to filter the trajectories by length...
+[Preprocessing] Min Length: 10, Max Length: 200
+[Preprocessing] Trajs Num after Length Filtering:  11169
+[Preprocessing] Average trajectory length: 76.70767302354731
+[Preprocessing] Saved the processed data into ./geolife_coord.pkl and ./geolife_grid.pkl

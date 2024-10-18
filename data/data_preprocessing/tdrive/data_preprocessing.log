@@ -1,0 +1,44 @@
+-------------- Segment the raw trajectories into trips by stop points detection --------------
+[Data Preprocessing] Start to load the raw data... 
+[Data Preprocessing] Segment the raw data into trajectories by stop points detection...
+[Data Preprocessing] Extraction spatial_radiusules -> minutes_for_a_stop is 5 mins, spatial_radius is 100 m. 
+[Data Preprocessing] Average Trip Length is 38.681051618658294
+[Data Preprocessing] Total Trips 142371
+
+----------------------------  Filter the trajectories by city range  ----------------------------
+[Data Preprocessing] Filtering trajectories by beijing city range...
+[Data Preprocessing] Latitude range:  39.6 40.7
+[Data Preprocessing] Longitude range:  115.9 117
+[Data Preprocessing] Trajectories in the target city:  137196
+[Data Preprocessing] Min length:  10
+[Data Preprocessing] Max length:  8682
+
+-------------- Gridfy the data and filter the trajectories by length -------------- 
+[Preprocessing] Total Trajs: 137196
+[Preprocessing] Convert the given area into a grid map...
+[Preprocessing] User-defined Longtitude Range: [115.9, 117], Latitude Range: [39.6, 40.7]
+[Preprocessing] Grid Delta: 0.001
+[Preprocessing] OUTPUT -> X Index Range: 0-1099, Y Index Range: 0-1099;  Grid Size: 1100 * 1100
+[Preprocessing] OUTPUT -> Gird Index of Right Bottom : (1099, 1099, 1209999)
+--------------------------------------------------
+[Preprocessing] Convert the trajectory into a squeezed grid sequence...
+[Preprocessing] Processed 0 trajs
+[Preprocessing] Processed 10000 trajs
+[Preprocessing] Processed 20000 trajs
+[Preprocessing] Processed 30000 trajs
+[Preprocessing] Processed 40000 trajs
+[Preprocessing] Processed 50000 trajs
+[Preprocessing] Processed 60000 trajs
+[Preprocessing] Processed 70000 trajs
+[Preprocessing] Processed 80000 trajs
+[Preprocessing] Processed 90000 trajs
+[Preprocessing] Processed 100000 trajs
+[Preprocessing] Processed 110000 trajs
+[Preprocessing] Processed 120000 trajs
+[Preprocessing] Processed 130000 trajs
+[Preprocessing] Grid Mapping Completed!
+[Preprocessing] Start to filter the trajectories by length...
+[Preprocessing] Min Length: 10, Max Length: 200
+[Preprocessing] Trajs Num after Length Filtering:  15314
+[Preprocessing] Average trajectory length: 70.21666449000914
+[Preprocessing] Saved the processed data into ./tdrive_coord.pkl and ./tdrive_grid.pkl

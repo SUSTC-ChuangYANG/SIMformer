@@ -1,0 +1,13 @@
+**/__pycache__/
+**/wandb/
+**/checkpoints/
+data/data_preprocessing/geolife/Geolife\ Trajectories\ 1.3/
+data/data_preprocessing/geolife/*.pkl
+data/data_preprocessing/porto/*.pkl
+data/data_preprocessing/tdrive/*.pkl
+data/data_preprocessing/ais/*.pkl
+data/dataset/geolife/*.pkl
+data/dataset/porto/*.pkl
+data/dataset/ais/*.pkl
+data/dataset/tdrive/*.pkl
+data/data_preprocessing/tdrive/taxi_log_2008_by_id
