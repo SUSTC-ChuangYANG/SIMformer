@@ -60,3 +60,19 @@ The script `main.py` accepts three groups of paras to configure the experiment:
 
 ## 🎄 Additional Experimental Data and Analysis
 We provide more experimental data and corresponding analysis in [this document](./additional_results/simformer_additional_results.pdf), which offers further evidence and perspectives, demonstrating the superiority of SIMformer. If you're interested, feel free to take a look! 😊
+
+## Citation
+If you find anything in this repository useful to your research, please cite our paper :) We sincerely appreciate it.
+```
+@article{yang2024simformer,
+  title={SIMformer: Single-Layer Vanilla Transformer Can Learn Free-Space Trajectory Similarity},
+  author={Chuang Yang, Renhe Jiang, Xiaohang Xu, Chuan Xiao, Kaoru Sezaki},
+  journal={Proceedings of the VLDB Endowment},
+  volume={18},
+  number={2},
+  pages={390--398},
+  year={2024},
+  doi={doi:10.14778/3705829.3705853},
+  publisher={VLDB Endowment}
+}
+``` 
